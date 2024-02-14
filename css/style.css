@@ -1,0 +1,55 @@
+
+body {
+  color: blue;
+  background-color: black;
+  background-image: url('brain2.png');
+  background-size: cover ;
+  /* background-position: center; */
+  background-repeat: no-repeat; /* Ensure the background image does not repeat */
+  font-family: Arial, sans-serif;
+}
+
+  h1 {
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  button{
+    background-color: transparent;
+    border: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight:bold
+  }
+
+  button:nth-of-type(1) {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+button:nth-of-type(2) {
+    position: absolute;
+    top: 50px;
+    right: 250px;
+}
+
+button:nth-of-type(3) {
+    position: absolute;
+    bottom: 130px;
+    left: 300px;
+}
+
+button:nth-of-type(4) {
+    position: absolute;
+    bottom: 250px;
+    right: 50px;
+}
