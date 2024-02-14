@@ -29,6 +29,6 @@ body.page3 {
 body.page4 {
   background-color: black;
   background-image: url('occipital.png');
-  background-size:contain ;
+  background-size:cover ;
   background-repeat: no-repeat; 
 }
