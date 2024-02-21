@@ -21,7 +21,9 @@ body.page2 {
   width: 100%;
   background-repeat: no-repeat;
 }
-
+.test {
+ display: block;
+}
 /* page3.html */
 body.page3 {
   /* background-color: black;
